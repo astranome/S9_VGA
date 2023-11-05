@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Webtalk v2016.2 (64-bit)
-# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # 
-# Start of session at: Wed Aug 17 21:25:22 2016
-# Process ID: 2878
-# Current directory: /opt/Xilinx/Projects/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.sdk/webtalk
-# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
-# Log file: /opt/Xilinx/Projects/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.sdk/webtalk/webtalk.log
-# Journal file: /opt/Xilinx/Projects/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.sdk/webtalk/webtalk.jou
+# Start of session at: Fri Nov  3 06:58:29 2023
+# Process ID: 9736
+# Current directory: H:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: H:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.sdk/webtalk/webtalk.log
+# Journal file: H:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.sdk/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl

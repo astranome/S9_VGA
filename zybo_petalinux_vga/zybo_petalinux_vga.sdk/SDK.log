@@ -382,3 +382,11 @@ Reason: ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors
 16:43:20 INFO  : Launching XSDB server: xsdb -n -interactive /opt/Xilinx/Projects/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.sdk/temp_xsdb_launch_script.tcl
 16:43:22 INFO  : XSDB server has started successfully.
 16:43:22 INFO  : Processing command line option -hwspec /opt/Xilinx/Projects/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.sdk/block_design_wrapper.hdf.
+06:54:58 INFO  : Registering command handlers for SDK TCF services
+06:55:00 INFO  : Launching XSCT server: xsct.bat -interactive H:\FPGA\VGA\zybo_petalinux\zybo_petalinux_vga\zybo_petalinux_vga.sdk\temp_xsdb_launch_script.tcl
+06:55:06 INFO  : XSCT server has started successfully.
+06:55:06 INFO  : Successfully done setting XSCT server connection channel  
+06:55:19 INFO  : Successfully done setting SDK workspace  
+06:55:19 INFO  : Restoring global repository preferences: 
+		 H:\FPGA\VGA\device-tree-xlnx
+06:55:19 INFO  : Processing command line option -hwspec H:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.sdk/block_design_wrapper.hdf.

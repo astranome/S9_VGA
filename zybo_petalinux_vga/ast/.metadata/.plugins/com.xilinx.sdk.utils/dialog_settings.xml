@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="H:\FPGA\VGA\zybo_petalinux\zybo_petalinux_vga\ast\hello\Debug" key="bootgen_files_selection"/>
+	<item value="H:\FPGA\VGA\zybo_petalinux\zybo_petalinux_vga\ast\FSBLvga\Debug" key="zynq_flash_files_selection"/>
+	<item value="H:\FPGA\VGA\zybo_petalinux\zybo_petalinux_vga\ast\FSBLvga\Debug" key="last_stored_selection"/>
+</section>

@@ -1,0 +1,8 @@
+04:27:05 **** Auto Build of configuration Debug for project FSBLvga ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Цель `main-build' не требует выполнения команд.
+
+04:27:05 Build Finished (took 572ms)
+

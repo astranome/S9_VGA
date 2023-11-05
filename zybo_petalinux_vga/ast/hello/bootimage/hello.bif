@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]H:\FPGA\VGA\zybo_petalinux\zybo_petalinux_vga\ast\FSBLvga\Debug\FSBLvga.elf
+	H:\FPGA\VGA\zybo_petalinux\zybo_petalinux_vga\ast\block_design_wrapper_hw_platform_0\block_design_wrapper.bit
+	H:\FPGA\VGA\zybo_petalinux\zybo_petalinux_vga\ast\hello\Debug\digilent_example_standalone_0.elf
+}

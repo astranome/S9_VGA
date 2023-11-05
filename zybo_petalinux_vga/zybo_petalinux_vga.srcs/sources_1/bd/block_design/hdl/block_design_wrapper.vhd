@@ -1,8 +1,8 @@
---Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
---Date        : Wed Aug 17 14:15:47 2016
---Host        : andrewandrepowell2-desktop running 64-bit Ubuntu 16.04 LTS
+--Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+--Date        : Fri Nov  3 06:18:35 2023
+--Host        : UUBP-THINK running 64-bit major release  (build 9200)
 --Command     : generate_target block_design_wrapper.bd
 --Design      : block_design_wrapper
 --Purpose     : IP block netlist
@@ -34,10 +34,10 @@ entity block_design_wrapper is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
-    vga_b : out STD_LOGIC_VECTOR ( 4 downto 0 );
-    vga_g : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    vga_b : out STD_LOGIC_VECTOR ( 0 to 0 );
+    vga_g : out STD_LOGIC_VECTOR ( 0 to 0 );
     vga_hs : out STD_LOGIC;
-    vga_r : out STD_LOGIC_VECTOR ( 4 downto 0 );
+    vga_r : out STD_LOGIC_VECTOR ( 0 to 0 );
     vga_vs : out STD_LOGIC
   );
 end block_design_wrapper;
@@ -66,9 +66,9 @@ architecture STRUCTURE of block_design_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    vga_b : out STD_LOGIC_VECTOR ( 4 downto 0 );
-    vga_g : out STD_LOGIC_VECTOR ( 5 downto 0 );
-    vga_r : out STD_LOGIC_VECTOR ( 4 downto 0 );
+    vga_b : out STD_LOGIC_VECTOR ( 0 to 0 );
+    vga_g : out STD_LOGIC_VECTOR ( 0 to 0 );
+    vga_r : out STD_LOGIC_VECTOR ( 0 to 0 );
     vga_hs : out STD_LOGIC;
     vga_vs : out STD_LOGIC
   );
@@ -97,10 +97,10 @@ block_design_i: component block_design
       FIXED_IO_ps_clk => FIXED_IO_ps_clk,
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
-      vga_b(4 downto 0) => vga_b(4 downto 0),
-      vga_g(5 downto 0) => vga_g(5 downto 0),
+      vga_b(0) => vga_b(0),
+      vga_g(0) => vga_g(0),
       vga_hs => vga_hs,
-      vga_r(4 downto 0) => vga_r(4 downto 0),
+      vga_r(0) => vga_r(0),
       vga_vs => vga_vs
     );
 end STRUCTURE;

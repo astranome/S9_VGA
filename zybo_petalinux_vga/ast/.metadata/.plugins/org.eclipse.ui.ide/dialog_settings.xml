@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="H:\FPGA\VGA\zybo_petalinux\zybo_petalinux_vga\ast\digilent_example_standalone_0"/>
+		<item value="H:\FPGA\VGA\zybo_petalinux\zybo_petalinux_vga\ast\my_example_linux_0"/>
+	</list>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="H:\FPGA\VGA\zybo_petalinux\zybo_petalinux_vga\ast\my_example_linux_0" key="OUTSIDE_LOCATION"/>
+	</section>
+</section>

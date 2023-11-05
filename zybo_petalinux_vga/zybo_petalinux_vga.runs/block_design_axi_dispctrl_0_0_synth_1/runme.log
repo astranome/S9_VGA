@@ -1,0 +1,619 @@
+
+*** Running vivado
+    with args -log block_design_axi_dispctrl_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source block_design_axi_dispctrl_0_0.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source block_design_axi_dispctrl_0_0.tcl -notrace
+Command: synth_design -top block_design_axi_dispctrl_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7512 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 367.652 ; gain = 100.277
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-1565] actual for formal port rst is neither a static name nor a globally static expression [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:343]
+WARNING: [Synth 8-1565] actual for formal port s1_clkout0 is neither a static name nor a globally static expression [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:345]
+WARNING: [Synth 8-1565] actual for formal port s1_clkfbout is neither a static name nor a globally static expression [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:346]
+WARNING: [Synth 8-1565] actual for formal port s1_lock is neither a static name nor a globally static expression [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:348]
+WARNING: [Synth 8-1565] actual for formal port rst is neither a static name nor a globally static expression [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:375]
+WARNING: [Synth 8-1565] actual for formal port s1_clkout0 is neither a static name nor a globally static expression [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:377]
+WARNING: [Synth 8-1565] actual for formal port s1_clkfbout is neither a static name nor a globally static expression [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:378]
+WARNING: [Synth 8-1565] actual for formal port s1_lock is neither a static name nor a globally static expression [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:380]
+INFO: [Synth 8-6157] synthesizing module 'block_design_axi_dispctrl_0_0' [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ip/block_design_axi_dispctrl_0_0/synth/block_design_axi_dispctrl_0_0.v:56]
+INFO: [Synth 8-638] synthesizing module 'axi_dispctrl_v1_0' [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:133]
+	Parameter C_USE_BUFR_DIV5 bound to: 0 - type: integer 
+	Parameter C_RED_WIDTH bound to: 1 - type: integer 
+	Parameter C_GREEN_WIDTH bound to: 1 - type: integer 
+	Parameter C_BLUE_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXIS_MM2S_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'axi_dispctrl_v1_0_S_AXI' declared at 'h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0_S_AXI.vhd:36' bound to instance 'axi_dispctrl_v1_0_S_AXI_inst' of component 'axi_dispctrl_v1_0_S_AXI' [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:272]
+INFO: [Synth 8-638] synthesizing module 'axi_dispctrl_v1_0_S_AXI' [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0_S_AXI.vhd:129]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0_S_AXI.vhd:277]
+INFO: [Synth 8-256] done synthesizing module 'axi_dispctrl_v1_0_S_AXI' (1#1) [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0_S_AXI.vhd:129]
+INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:361]
+	Parameter DIV_F bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'mmcme2_drp' declared at 'h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/mmcme2_drp.v:50' bound to instance 'Inst_mmcme2_drp' of component 'mmcme2_drp' [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:368]
+INFO: [Synth 8-6157] synthesizing module 'mmcme2_drp' [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/mmcme2_drp.v:50]
+	Parameter DIV_F bound to: 10 - type: integer 
+	Parameter TCQ bound to: 100 - type: integer 
+	Parameter RESTART bound to: 4'b0001 
+	Parameter WAIT_LOCK bound to: 4'b0010 
+	Parameter WAIT_SEN bound to: 4'b0011 
+	Parameter ADDRESS bound to: 4'b0100 
+	Parameter WAIT_A_DRDY bound to: 4'b0101 
+	Parameter BITMASK bound to: 4'b0110 
+	Parameter BITSET bound to: 4'b0111 
+	Parameter WRITE bound to: 4'b1000 
+	Parameter WAIT_DRDY bound to: 4'b1001 
+	Parameter STATE_COUNT_CONST bound to: 13 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [H:/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:25761]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (2#1) [H:/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:25761]
+INFO: [Synth 8-6155] done synthesizing module 'mmcme2_drp' (3#1) [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/mmcme2_drp.v:50]
+	Parameter C_RED_WIDTH bound to: 1 - type: integer 
+	Parameter C_GREEN_WIDTH bound to: 1 - type: integer 
+	Parameter C_BLUE_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'vdma_to_vga' declared at 'h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/vdma_to_vga.vhd:51' bound to instance 'Inst_vdma_to_vga' of component 'vdma_to_vga' [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:461]
+INFO: [Synth 8-638] synthesizing module 'vdma_to_vga' [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/vdma_to_vga.vhd:93]
+	Parameter C_RED_WIDTH bound to: 1 - type: integer 
+	Parameter C_GREEN_WIDTH bound to: 1 - type: integer 
+	Parameter C_BLUE_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vdma_to_vga' (4#1) [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/vdma_to_vga.vhd:93]
+WARNING: [Synth 8-6426] Mix of Sync and Async assignments to register 'STAT_REG_reg' in module 'axi_dispctrl_v1_0' in the same process may cause logic issues. 
+ Please split the sync and async parts into different processes [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:279]
+INFO: [Synth 8-256] done synthesizing module 'axi_dispctrl_v1_0' (5#1) [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd:133]
+INFO: [Synth 8-6155] done synthesizing module 'block_design_axi_dispctrl_0_0' (6#1) [h:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.srcs/sources_1/bd/block_design/ip/block_design_axi_dispctrl_0_0/synth/block_design_axi_dispctrl_0_0.v:56]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_ARESETN
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TDATA[31]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TDATA[30]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TDATA[29]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TDATA[28]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TDATA[27]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TDATA[26]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TDATA[25]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TDATA[24]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TSTRB[3]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TSTRB[2]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TSTRB[1]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TSTRB[0]
+WARNING: [Synth 8-3331] design vdma_to_vga has unconnected port S_AXIS_TLAST
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 419.395 ; gain = 152.020
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 419.395 ; gain = 152.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 419.395 ; gain = 152.020
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 747.641 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:43 ; elapsed = 00:00:52 . Memory (MB): peak = 747.641 ; gain = 480.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:43 ; elapsed = 00:00:52 . Memory (MB): peak = 747.641 ; gain = 480.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:52 . Memory (MB): peak = 747.641 ; gain = 480.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'vga_state_reg' in module 'vdma_to_vga'
+INFO: [Synth 8-5544] ROM "vga_running" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "frm_width" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "vga_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'mmcme2_drp'
+INFO: [Synth 8-5544] ROM "next_state_count" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_di" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_rst_mmcm" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_den" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_dwe" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_daddr" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'clk_state_reg' in module 'axi_dispctrl_v1_0'
+INFO: [Synth 8-5544] ROM "clk_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               vga_reset |                              000 |                              000
+             vga_wait_en |                              001 |                              001
+               vga_latch |                              010 |                              010
+                vga_init |                              011 |                              011
+            vga_wait_vld |                              100 |                              100
+                 vga_run |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'vga_state_reg' using encoding 'sequential' in module 'vdma_to_vga'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 RESTART |                        000000001 |                             0001
+               WAIT_LOCK |                        000000010 |                             0010
+                WAIT_SEN |                        000000100 |                             0011
+                 ADDRESS |                        000001000 |                             0100
+             WAIT_A_DRDY |                        000010000 |                             0101
+                 BITMASK |                        000100000 |                             0110
+                  BITSET |                        001000000 |                             0111
+                   WRITE |                        010000000 |                             1000
+               WAIT_DRDY |                        100000000 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'mmcme2_drp'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   reset |                          0000001 |                              000
+             wait_locked |                          0000010 |                              001
+                 wait_en |                          0000100 |                              010
+               wait_srdy |                          0001000 |                              011
+                wait_run |                          0010000 |                              100
+                 enabled |                          0100000 |                              101
+         wait_frame_done |                          1000000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'clk_state_reg' using encoding 'one-hot' in module 'axi_dispctrl_v1_0'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:45 ; elapsed = 00:00:54 . Memory (MB): peak = 747.641 ; gain = 480.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               39 Bit    Registers := 1     
+	               32 Bit    Registers := 15    
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 10    
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 22    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 12    
+	  13 Input     32 Bit        Muxes := 12    
+	   9 Input     16 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 6     
+	   9 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 3     
+	   9 Input      7 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	   6 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 8     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module axi_dispctrl_v1_0_S_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 14    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 12    
+	  13 Input     32 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 4     
+Module vdma_to_vga 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 3     
++---Registers : 
+	               12 Bit    Registers := 10    
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input      8 Bit        Muxes := 3     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   6 Input      1 Bit        Muxes := 1     
+Module mmcme2_drp 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               39 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   9 Input     16 Bit        Muxes := 1     
+	   9 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 5     
+	   9 Input      7 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 8     
+Module axi_dispctrl_v1_0 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   7 Input      7 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3917] design block_design_axi_dispctrl_0_0 has port PXL_CLK_5X_O driven by constant 0
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design axi_dispctrl_v1_0_S_AXI has unconnected port S_AXI_ARPROT[0]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_aresetn
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tdata[31]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tdata[30]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tdata[29]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tdata[28]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tdata[27]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tdata[26]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tdata[25]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tdata[24]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tstrb[3]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tstrb[2]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tstrb[1]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tstrb[0]
+WARNING: [Synth 8-3331] design block_design_axi_dispctrl_0_0 has unconnected port s_axis_mm2s_tlast
+INFO: [Synth 8-3886] merging instance 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[16]' (FD) to 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[17]'
+INFO: [Synth 8-3886] merging instance 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[17]' (FD) to 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[18]'
+INFO: [Synth 8-3886] merging instance 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[18]' (FD) to 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[19]'
+INFO: [Synth 8-3886] merging instance 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[19]' (FD) to 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[21]'
+INFO: [Synth 8-3886] merging instance 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[20]' (FD) to 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[21]' (FD) to 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[22]' (FD) to 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[25]'
+INFO: [Synth 8-3886] merging instance 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[26]' (FD) to 'inst/DONT_USE_BUFR_DIV5.Inst_mmcme2_drp/rom_do_reg[29]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[1]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[2]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[3]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[4]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[5]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[6]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[7]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[8]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[9]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[10]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[11]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[12]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[13]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[14]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[15]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[16]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[17]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[18]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[19]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[20]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[21]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[22]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[23]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[24]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[25]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[26]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[27]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[28]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[29]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[30]' (FDR) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31] )
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/axi_dispctrl_v1_0_S_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/axi_dispctrl_v1_0_S_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/axi_dispctrl_v1_0_S_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/axi_dispctrl_v1_0_S_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3332] Sequential element (inst/axi_dispctrl_v1_0_S_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_dispctrl_v1_0_S_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_dispctrl_v1_0_S_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_dispctrl_v1_0_S_AXI_inst/slv_reg1_reg[31]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_dispctrl_v1_0_S_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_dispctrl_v1_0_S_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_dispctrl_v1_0_S_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/red_reg_reg[6]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/red_reg_reg[5]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/red_reg_reg[4]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/red_reg_reg[3]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/red_reg_reg[2]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/red_reg_reg[1]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/red_reg_reg[0]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/green_reg_reg[6]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/green_reg_reg[5]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/green_reg_reg[4]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/green_reg_reg[3]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/green_reg_reg[2]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/green_reg_reg[1]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/green_reg_reg[0]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/blue_reg_reg[6]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/blue_reg_reg[5]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/blue_reg_reg[4]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/blue_reg_reg[3]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/blue_reg_reg[2]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/blue_reg_reg[1]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/Inst_vdma_to_vga/blue_reg_reg[0]) is unused and will be removed from module block_design_axi_dispctrl_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:01:01 . Memory (MB): peak = 747.641 ; gain = 480.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:06 ; elapsed = 00:01:18 . Memory (MB): peak = 756.914 ; gain = 489.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:06 ; elapsed = 00:01:18 . Memory (MB): peak = 757.656 ; gain = 490.281
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:07 ; elapsed = 00:01:19 . Memory (MB): peak = 779.535 ; gain = 512.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:08 ; elapsed = 00:01:20 . Memory (MB): peak = 779.535 ; gain = 512.160
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:08 ; elapsed = 00:01:20 . Memory (MB): peak = 779.535 ; gain = 512.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:08 ; elapsed = 00:01:20 . Memory (MB): peak = 779.535 ; gain = 512.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:08 ; elapsed = 00:01:20 . Memory (MB): peak = 779.535 ; gain = 512.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:08 ; elapsed = 00:01:20 . Memory (MB): peak = 779.535 ; gain = 512.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:08 ; elapsed = 00:01:20 . Memory (MB): peak = 779.535 ; gain = 512.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     1|
+|2     |CARRY4     |    24|
+|3     |LUT1       |     3|
+|4     |LUT2       |    18|
+|5     |LUT3       |    15|
+|6     |LUT4       |   104|
+|7     |LUT5       |   105|
+|8     |LUT6       |   222|
+|9     |MMCME2_ADV |     1|
+|10    |MUXF7      |     9|
+|11    |FDCE       |   137|
+|12    |FDRE       |   509|
+|13    |FDSE       |     6|
++------+-----------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------+------------------------+------+
+|      |Instance                                 |Module                  |Cells |
++------+-----------------------------------------+------------------------+------+
+|1     |top                                      |                        |  1154|
+|2     |  inst                                   |axi_dispctrl_v1_0       |  1154|
+|3     |    \DONT_USE_BUFR_DIV5.Inst_mmcme2_drp  |mmcme2_drp              |   143|
+|4     |    Inst_vdma_to_vga                     |vdma_to_vga             |   294|
+|5     |    axi_dispctrl_v1_0_S_AXI_inst         |axi_dispctrl_v1_0_S_AXI |   704|
++------+-----------------------------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:08 ; elapsed = 00:01:20 . Memory (MB): peak = 779.535 ; gain = 512.160
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:01:01 . Memory (MB): peak = 779.535 ; gain = 183.914
+Synthesis Optimization Complete : Time (s): cpu = 00:01:09 ; elapsed = 00:01:21 . Memory (MB): peak = 779.535 ; gain = 512.160
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 34 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+121 Infos, 50 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:11 ; elapsed = 00:01:25 . Memory (MB): peak = 780.648 ; gain = 524.797
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+INFO: [Common 17-1381] The checkpoint 'H:/FPGA/VGA/zybo_petalinux/zybo_petalinux_vga/zybo_petalinux_vga.runs/block_design_axi_dispctrl_0_0_synth_1/block_design_axi_dispctrl_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file block_design_axi_dispctrl_0_0_utilization_synth.rpt -pb block_design_axi_dispctrl_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 780.648 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  3 06:24:36 2023...
